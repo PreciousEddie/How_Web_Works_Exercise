@@ -1,0 +1,9 @@
+1. HTTP stands for "hypertext transfer protocol". It was designed for transmitting hypermedia documents, such as HTML, but can also be used for other purposes. 
+2. URL stands for "uniform resource locator". It is a text string that specifies where a resource can be found on the internet. URLs can also be used for file transfer, emails, and other applications.
+3. DNS stands for "domain name system". It maintains a list of domain names along with resources, such as IP addresses, that are associated with them. It also translates human-friendly domain names to a numeric IP address.
+4. A query string is part of a URL that assigns values to specified parameters.
+5. POST and GET are two examples of HTTP verbs. GET are requests without side effects that don't change server data while POST are requests with side effects that do change data on server.
+6. An HTTP request is usually a GET request that almost always uses protocol version 1.1. It has the resource URL and headers.
+7. An HTTP response includes a response status code (200, 404, etc) and headers like content type (html/text).
+8. An HTTP header provides additional information about the request or the response. Request headers could be Host, Cookies, or Cache-Control. Response headers could be Content-Type, Last-Modified, or Cache-Control.
+9. When you type a URL in a browser, the browser turns the name into an IP address, makes a request to it, including headers. The server sends a response like HTML and a status code. The browser then makes a DOM from that HTML and finds any other resources needed. 
